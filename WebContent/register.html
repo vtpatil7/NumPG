@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Register page</title>
+  <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        
+        
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        
+
+       
+
+
+</head>
+<body>
+<div class="main-div" id="maindiv" >
+        <div class="header">
+                <div class="container">
+                    <nav class="navbar  navbg" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" class="navbar-brand scroll-top" style="padding-left:40px"><em id="em1">NUM</em><em id="em2">PG</em></a>
+                        </div>
+                        <!--/.navbar-header-->
+                        <div id="main-nav" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html" class="scroll-top"><em style="color:black;">Home</em></a></li>
+                                
+                                <li><a href="#" class="scroll-top"><img src="img/img_avatar.png" alt="Avatar" class="avatar"></a></li>
+                            </ul>
+                        </div>
+                        <!--/.navbar-collapse-->
+                    </nav>
+                    <!--/.navbar-->
+                    
+                </div>
+                <!--/.container-->
+        </div>
+    <form class="form-horizontal" style="width:70%;" id="formdiv" method="post">
+        <div id="rcorners1">
+            <div class="container">
+ 
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                          <!-- Indicators -->
+                    <ol class="carousel-indicators " id="indi">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+
+                    <div class="item active imgitem" id="item">       
+                    <fieldset  id="fieldsetid">
+                        <div id=fieldsetdiv>
+                        <!-- Form Name -->
+                        <center><legend>PG Registration</legend></center> <!-- Text input-->
+                        <div class="col-md-12 col-sm-12" id="pad">
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <span style="color:black">PG Name : </span><input required  class="form-control input-md txtfield" id="first_name" name="textinput" placeholder="PGName" type="text">
+                            </div>
+                        </div>
+                        <div class="container mt-5">
+                            
+                            <div class="col-sm-12 col-lg-4 mr-auto ml-auto border p-4">
+                            <form method="post" enctype="multipart/form-data">
+                              <div class="form-group">
+                                <label><strong>Upload Files</strong></label>
+                                <div class="custom-file">
+                                  <input type="file" name="files[]" multiple class="custom-file-input form-control" id="customFile">
+                                  <label class="custom-file-label" for="customFile">Choose file</label>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <button type="button" name="upload" value="upload" id="upload" class="btn btn-block btn-dark"><i class="fa fa-fw fa-upload"></i> Upload</button>
+                              </div>
+                            </form>
+                          </div>
+                        <!-- Password input-->
+                        <!-- <div class="form-group">
+                            <div class="col-md-6">
+                                <input required class="form-control input-md txtfield" id="second_name" name="textinput" placeholder="City" type="password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <input required class="form-control input-md txtfield" id="first_name" name="textinput" placeholder="Username" type="text">
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-12" id="pad">
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <input required class="form-control input-md" id="first_name" name="textinput" placeholder="Username" type="text">
+                            </div>
+                        </div><!-- Password input-->
+                        <!-- <div class="form-group">
+                            <div class="col-md-6">
+                                <input required class="form-control input-md" id="second_name" name="passwordinput" placeholder="Password" type="password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <input required class="form-control input-md" id="first_name" name="textinput" placeholder="Username" type="text">
+                            </div>
+                        </div> -->
+                        </div>
+                    <center>
+                        <!-- <input class="btn btn-info terms_button" type="button" id="prevBtn" value="previous button . . "   /> -->
+
+                        <input class="btn btn-info terms_button"  type="button" id="nextBtn" value="Next button . . "   />
+                    </center>
+                    </div>
+                    </fieldset>
+                    </div>
+
+                        <div class="item  imgitem" id="item">       
+                            <fieldset >
+                                <div id=fieldsetdiv>
+                                <!-- Form Name -->
+                                <center><legend>Form Name</legend></center> <!-- Text input-->
+                                <div class="row mb-4">
+                                    <div class="col">
+                                      <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" />
+                                        <label class="form-label" for="form6Example1">First name</label>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" />
+                                        <label class="form-label" for="form6Example2">Last name</label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                  <!-- Text input -->
+                                  <div class="form-outline mb-4">
+                                    <input type="text" id="form6Example3" class="form-control" />
+                                    <label class="form-label" for="form6Example3">Company name</label>
+                                  </div>
+                                
+                                  <!-- Text input -->
+                                  <div class="form-outline mb-4">
+                                    <input type="text" id="form6Example4" class="form-control" />
+                                    <label class="form-label" for="form6Example4">Address</label>
+                                  </div>
+                                
+                                  <!-- Email input -->
+                                  <div class="form-outline mb-4">
+                                    <input type="email" id="form6Example5" class="form-control" />
+                                    <label class="form-label" for="form6Example5">Email</label>
+                                  </div>
+                                
+                                  <!-- Number input -->
+                                  <div class="form-outline mb-4">
+                                    <input type="number" id="form6Example6" class="form-control" />
+                                    <label class="form-label" for="form6Example6">Phone</label>
+                                  </div>
+                                
+                                  <!-- Message input -->
+                                  <div class="form-outline mb-4">
+                                    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                                    <label class="form-label" for="form6Example7">Additional information</label>
+                                  </div>
+                                
+                                  <!-- Checkbox -->
+                                  <div class="form-check d-flex justify-content-center mb-4">
+                                    <input
+                                      class="form-check-input me-2"
+                                      type="checkbox"
+                                      value=""
+                                      id="form6Example8"
+                                      checked
+                                    />
+                                    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                                  </div>
+                            <center>
+                                <input class="btn btn-info terms_button" type="button" id="prevBtn" value="previous button . . "   />
+        
+                                <input class="btn btn-info terms_button"  type="button" id="nextBtn1" value="Next button . . "   />
+                            </center>
+                                </div>
+                            </fieldset>
+                        </div>
+
+                            <div class="item  imgitem" id="item">       
+                                    <fieldset style="">
+                                            <div id=fieldsetdiv>
+                                        <!-- Form Name -->
+                                        <center><legend>Form Name</legend></center> <!-- Text input-->
+                                        <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required  class="form-control input-md txtfield" id="first_name" name="textinput" placeholder="Username" type="text">
+                                            </div>
+                                        </div><!-- Password input-->
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required class="form-control input-md txtfield" id="second_name" name="passwordinput" placeholder="Password" type="password">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required class="form-control input-md txtfield" id="first_name" name="textinput" placeholder="Username" type="text">
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required class="form-control input-md" id="first_name" name="textinput" placeholder="Username" type="text">
+                                            </div>
+                                        </div><!-- Password input-->
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required class="form-control input-md" id="second_name" name="passwordinput" placeholder="Password" type="password">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input required class="form-control input-md" id="first_name" name="textinput" placeholder="Username" type="text">
+                                            </div>
+                                        </div>
+                                        </div>
+                                    <center>
+                                        <input class="btn btn-info terms_button" type="button" id="prevBtn1" value="previous button . . "   />
+                
+                                        <input class="btn btn-info terms_button"  type="submit" id="nextBtn" value="submit"   />
+                                    </center>
+                                            </div>
+                                    </fieldset>
+                            </div>
+
+                    </div>
+                    <!-- Left and right controls -->
+                    <!-- <a class="left carousel-control" id="previd" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" id="nextid" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                    </a> -->
+                </div>
+            </div>        
+    </div>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/myjs.js"> </script>
+<script src="js/main.js"></script>
+</body>
+</html>
